@@ -14,11 +14,11 @@ Besides the above, SOX requirement must be met.
 
 CONTROL
 
-Timely deactivation of the AD accounts is a local admin responsibility. Employees’ terminations report is sent by HR department twice a day by an email notification.
+Timely deactivation of the AD accounts is a global admin responsibility. Employees’ terminations report is sent by HR department twice a day by an email notification.
 
 TESTING APPROACH
 
-This project is now part of our new Continuous Auditing program which leverages the new EXECUTE command in ACL Analytics 10 to assess the timely termination of the AD accounts. The scripts included intend to work as follow:
+This project intends to be part of our new Continuous Auditing program which leverages the new EXECUTE command in ACL Analytics 10 to assess the timely termination of the AD accounts. The scripts included intend to work as follow:
 
   1.Generate a current list of AD accounts through the use of ADFind tool (i.e. command line Active Directory LDAP query, it is a free tool).
   
